@@ -52,7 +52,7 @@ div.lettering {
   transform: rotate(-5deg);
 }
 
-/*div.lettering span {
+div.lettering span {
   display: block;
   width: 70%;
   margin: 0 auto;
@@ -63,7 +63,8 @@ div.lettering {
   color: #000;
   transition: color 0.1s ease-in, text-shadow 0.1s ease-in;
 }
-label {
+
+/*label {
   position: relative;
 }
 label > .switch {
