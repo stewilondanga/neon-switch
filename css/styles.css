@@ -21,11 +21,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-.bg {
+/*.bg {
   position: fixed;
   background: url("https://images.unsplash.com/photo-1514060201166-78f2837b7977?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f2be0d7acc070b64a44000e5a90a655c") center/cover;
   top: 0;
