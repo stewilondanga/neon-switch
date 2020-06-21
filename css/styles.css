@@ -45,12 +45,13 @@ body {
   background-image: radial-gradient(rgba(0, 0, 0, 0.5), #000);
 }
 
-/*div.lettering {
+div.lettering {
   position: relative;
   margin-bottom: 40px;
   transform: rotate(-5deg);
 }
-div.lettering span {
+
+/*div.lettering span {
   display: block;
   width: 70%;
   margin: 0 auto;
