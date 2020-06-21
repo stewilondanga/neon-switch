@@ -128,19 +128,22 @@ input:checked~div.lettering span {
   }
 }
 
-/*@-webkit-keyframes neon {
+@-webkit-keyframes neon {
   0%, 29%, 36%, 49% {
     text-shadow: 2px 2px 1px #000, 0 0 4px #7b1fa2, 0 0 10px #fff, 0 0 100px #fff;
     color: #fff;
   }
+
   30%, 35%, 50%, 65% {
     text-shadow: 2px 2px 1px #000, 0 0 4px #7b1fa2, 0 0 0px #fff, 0 0 0px #fff;
   }
+
   66%, 100% {
     text-shadow: 2px 2px 1px #000, 0 0 4px #7b1fa2, 0 0 10px #fff, 0 0 100px #fff;
   }
 }
-@-o-keyframes neon {
+
+/*@-o-keyframes neon {
   0%, 29%, 36%, 49% {
     text-shadow: 2px 2px 1px #000, 0 0 4px #7b1fa2, 0 0 10px #fff, 0 0 100px #fff;
     color: #fff;
