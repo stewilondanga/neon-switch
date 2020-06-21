@@ -3,6 +3,13 @@ body {
   height: 100%;
 }
 
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -26,12 +33,6 @@ body {
   height: 1.5em;
 }
 
-body {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-}
 .bg {
   position: fixed;
   background: url("https://images.unsplash.com/photo-1514060201166-78f2837b7977?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f2be0d7acc070b64a44000e5a90a655c") center/cover;
