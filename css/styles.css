@@ -94,13 +94,14 @@ label>.switch:before {
   background: #a9a9a9;
 }
 
-/*label > .switch:after {
+label>.switch:after {
   left: 2px;
   background: #f9f9f9;
   transform: translate(0, -50%);
   transition: transform 0.2s ease;
 }
-input:checked ~ label .switch:after {
+
+/*input:checked ~ label .switch:after {
   transform: translate(100%, -50%);
 }
 input:checked ~ div.lettering span {
