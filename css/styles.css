@@ -101,10 +101,11 @@ label>.switch:after {
   transition: transform 0.2s ease;
 }
 
-/*input:checked ~ label .switch:after {
+input:checked~label .switch:after {
   transform: translate(100%, -50%);
 }
-input:checked ~ div.lettering span {
+
+/*input:checked ~ div.lettering span {
   color: #fff;
   text-shadow: 2px 2px 1px #000, 0 0 4px #7b1fa2, 0 0 10px #fff, 0 0 100px #fff;
   mix-blend-mode: screen;
