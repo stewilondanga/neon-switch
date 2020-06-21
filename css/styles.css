@@ -77,8 +77,8 @@ label>.switch {
   border: 2px solid #999;
 }
 
-/*label > .switch:before,
-label > .switch:after {
+label>.switch:before,
+label>.switch:after {
   content: '';
   border-radius: 3px;
   position: absolute;
@@ -87,7 +87,8 @@ label > .switch:after {
   width: 28px;
   height: 28px;
 }
-label > .switch:before {
+
+/*label > .switch:before {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #a9a9a9;
